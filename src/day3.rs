@@ -1,9 +1,5 @@
 use itertools::Itertools;
-use std::{
-    borrow::{Borrow, BorrowMut},
-    collections::HashSet,
-    hash::Hash,
-};
+use std::{borrow::BorrowMut, collections::HashSet};
 
 #[derive(Debug, PartialEq)]
 struct Rucksack<'a> {
