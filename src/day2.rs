@@ -1,5 +1,3 @@
-use std::str::FromStr;
-
 #[derive(PartialEq, Debug, Copy, Clone)]
 enum Move {
     Rock,
@@ -111,7 +109,7 @@ fn parse_part_two(input: &str) -> (Move, Strategy) {
 fn part1(input: &str) {
     let score: u32 = input.lines().map(parse_round).map(score_round).sum();
 
-    println!("Score: {}", score)
+    println!("[Day  2][Part 1] - {}", score)
 }
 
 fn part2(input: &str) {
@@ -122,7 +120,7 @@ fn part2(input: &str) {
         .map(score_round)
         .sum();
 
-    println!("Part 2 Score: {}", score);
+    println!("[Day  2][Part 2] - {}", score);
 }
 
 pub fn solve() {

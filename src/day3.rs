@@ -106,9 +106,9 @@ pub fn solve() {
     let input = std::fs::read_to_string("input/day3.txt").expect("Need input");
 
     let score = part1(&input);
-    println!("Part 1 Score: {}", score);
+    println!("[Day  3][Part 1] - {}", score);
     let score = part2(&input);
-    println!("Part 2 Score: {}", score);
+    println!("[Day  3][Part 2] - {}", score);
 }
 
 #[cfg(test)]

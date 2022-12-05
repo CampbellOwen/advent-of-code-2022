@@ -34,7 +34,7 @@ pub fn part1() {
 
     let elves = parse_elves(&input);
     let biggest_elf = most_calories(&elves);
-    println!("Part1: {}", biggest_elf);
+    println!("[Day  1][Part 1] - {}", biggest_elf);
 }
 
 pub fn part2() {
@@ -43,7 +43,7 @@ pub fn part2() {
 
     let mut elves = parse_elves(&input);
     let top_3 = top_three_calories(&mut elves);
-    println!("Part2: {}", top_3);
+    println!("[Day  1][Part 2] - {}", top_3);
 }
 
 #[cfg(test)]
